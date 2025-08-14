@@ -1,4 +1,3 @@
-# extractor.py
 import os
 import re
 import json
@@ -190,3 +189,4 @@ def parse_promo_items(root: ET.Element, provider: str):
                 price = 0.0
             promos.append({"product": desc, "price": price, "unit": "unit"})
     return promos
+

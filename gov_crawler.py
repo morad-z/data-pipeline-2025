@@ -1,4 +1,3 @@
-# gov_crawler.py
 import re
 import time
 from datetime import datetime
